@@ -1,0 +1,57 @@
+.navbar-brand img {
+    height: 100px;
+}
+
+.navbar {
+    background-color: black;
+    z-index: 3;
+}
+section.forcast-banner-section {
+    height:780px;
+    background-position: center !important;
+    background-repeat: no-repeat ;
+    background-size: cover !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.background-overlay {
+    background: #00000082;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+}
+section.forcast-banner-section form {
+    /* width: 35%; */
+    z-index: 3;
+    position: relative;
+    margin-bottom: 50px;
+}
+section.forcast-banner-section .form-control {
+    height: 50px;
+}
+section.forcast-banner-section .search-icon {
+    color: #fff;
+    border: 1px solid;
+}
+.forcasting-box {
+    width: 30%;
+}
+.weather {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px 20px;
+    margin-bottom: 40px;
+    color: #fff;
+    z-index: 3;
+    position: relative;
+    font-size: 20px;
+    border: 2px solid;
+    border-radius: 20px;
+}
+.weather-form {
+    width: 40%;
+}

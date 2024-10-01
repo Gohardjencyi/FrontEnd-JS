@@ -1,0 +1,148 @@
+.kanbanboard {
+    background-image: url(./image/black-leaf.jpg);
+    height: 100%;
+    background-color: black;
+    color: white;
+    padding: 30px 10px;
+}
+.tab-lists {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    padding: 20px 0;
+    gap: 20px;
+}
+.task-navbar select option {
+    background-color: black;
+}
+.options-nav button,
+.task-navbar select {
+    padding: 8px 14px;
+    background-color: transparent;
+    color: #fff;
+    border-radius: 8px;
+}
+.form-model form {
+    width: 30%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    justify-content: space-around;
+}
+.form-model form input {
+    height: 40px;
+}
+.task_modal {
+    position: absolute;
+    /* height: 100%;
+    top: 0; */
+    width: 99%;
+}
+.btn-tasksubmit {
+    padding: 10px;
+    background-color: transparent;
+    color: #fff;
+    border: 1px solid;
+    border-radius: 8px;
+    font-weight: 700;
+    transition: 0.5s;
+}
+.btn-tasksubmit:hover {
+    background-color: #065c0d;
+}
+.task-box {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #0aad17;
+    display: inline-block;
+    width: 100%;
+    /* height: 200px;
+    width: 300px; */
+    border-top: 10px solid #0aad17;
+    border-radius: 10px;
+}
+.task-tags button {
+    background-color: transparent;
+    border:none;
+    color: #fff;
+    font-size: 13px;
+    border-radius: 8px;
+    padding: 5px 10px;
+}
+
+.task-box.todo {
+    border: 1px solid #db8607;
+    border-top: 10px solid #db8607;
+}
+.task-box .task-tags .todo {
+    background-color: #db8607;
+}
+.task-box.prograss {
+    border: 1px solid #075cdb;
+    border-top: 10px solid #075cdb;
+}
+.task-box .task-tags .prograss {
+    background-color: #075cdb;
+}
+.task-box.hold {
+    border: 1px solid #8607db;
+    border-top: 10px solid #8607db;
+}
+.task-box .task-tags .hold {
+    background-color: #8607db;
+}
+.task-box.completed {
+    border: 1px solid #209908;
+    border-top: 10px solid #209908;
+}
+.task-box .task-tags .completed {
+    background-color: #209908;
+}
+.task-box .task-tags .critical {
+    background-color: #bf0000;
+}
+.task-box .task-tags .high {
+    background-color: #9200bf;
+}
+.task-box .task-tags .medium {
+    background-color: #bf6600;
+}
+.task-box .task-tags .low {
+    background-color: #bfbc00;
+}
+
+.task-column.active {
+    display: block;
+}
+.task-column {
+    display: none;
+}
+
+.task-options {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 0 12px 0;
+}
+
+/* start component css */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .star-container {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .star {
+    font-size: 40px;
+    color: gray;
+    cursor: pointer;
+  }
+  
+  .star.active {
+    color: gold;
+  }
